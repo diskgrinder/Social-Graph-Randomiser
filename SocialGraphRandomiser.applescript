@@ -1,4 +1,5 @@
 tell application "Google Chrome"
+	-- just check chrome's just there then
 	activate
 end tell
 
