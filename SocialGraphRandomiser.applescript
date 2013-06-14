@@ -19,6 +19,7 @@ repeat
 		
 		log "_________TEXT is " & word1 & " " & word2 & " " & word3
 	else
+		--get random words
 		set word1 to do shell script "curl http://randomword.setgetgo.com/get.php"
 		set word2 to do shell script "curl http://randomword.setgetgo.com/get.php"
 		set word3 to do shell script "curl http://randomword.setgetgo.com/get.php"
@@ -75,3 +76,5 @@ to splitString(aString, delimiter)
 	set AppleScript's text item delimiters to prevDelimiter
 	return retVal
 end splitString
+
+
