@@ -65,7 +65,7 @@ end repeat
 
 
 
-
+-- i got this from somewhere, years ago..
 to splitString(aString, delimiter)
 	set retVal to {}
 	set prevDelimiter to AppleScript's text item delimiters
